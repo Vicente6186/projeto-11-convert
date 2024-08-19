@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <img src="assets/brand.svg" alt="Logo do site">
+        
+        <main>
+            <form action="" method="post">
+                <div class="input-wrap">
+                    <label class="input-label" for="value">Valor</label>
+                    <input class="input" type="number" name="quantity" id="quantity" placeholder="0,00" required>
+                </div>
+                <div class="input-wrap">
+                    <label class="input-label" for="currency">Valor</label>
+                    <select class="input input-select" name="currency" id="currency" required>
+                        <option value="" disabled selected hidden>Selecione uma opção...</option>
+                        <option value="USD">Dólar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Libra esterlina</option>
+                    </select>
+                </div>
+                <input class="btn-primary" type="submit" value="Converter em reais"></input>
+    
+               
+            </form>
+            <footer hidden>
+                <p id="quote">US$ 1 = R$ 4,86</p>
+                <p id="result">486,00 Reais</p>
+            </footer>
+        </main>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

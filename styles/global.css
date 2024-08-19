@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --blue-100: #080815;
+    --blue-200: #0E0F25;
+    --blue-300: #141534;
+    --blue-400: #1F2151;
+    --blue-500: #2F3279;
+    --blue-600: #2F34AB; 
+    --blue-700: #4A5DCD;
+    --blue-800: #7D8DEC;
+    --blue-900: #B2B8DE; 
+    --white: #F1F2F6;
+
+    font-size: 62.5%;;
+    --heading: 700 3.2rem/4.8rem "Inter", sans-serif;
+    --button: 600 1.6rem/2rem "Inter", sans-serif;
+    --body: 1.6rem/2rem "Inter", sans-serif;
+    --label: 1.2rem/1.6rem "Inter", sans-serif;
+    --span: 1.6rem/2rem "IBM Plex Mono", monospace;
+}
+
+body {
+    background: url(../assets/background.jpg) no-repeat center/cover;
+    min-height: 100vh;
+    font: var(--body);
+}
